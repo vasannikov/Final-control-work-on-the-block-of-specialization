@@ -1,0 +1,24 @@
+    1  sudo apt-get install git
+    2  git clone https://github.com/vasannikov/Final-control-work-on-the-block-of-specialization.git
+    3  git pull
+    4  cd Final-control-work-on-the-block-of-specialization/
+    5  git pull
+    6  git add -A
+    7  git commit -m "final try"
+    8  git config --global user.email "90653182+vasannikov@users.noreply.github.com"
+    9  git config --global user.name "vasannikov"
+   10  git commit -m "final try"
+   11  git push
+   12  echo -e "Собаки\nКошки\nХомяки" > Домашние_животные.txt
+   13  echo -e "Лошади\nВерблюды\nОслы" > Вьючные_животные.txt
+   14  cat Домашние_животные.txt Вьючные_животные.txt > Всех_животные.txt
+   15  cat Всех_животные.txt
+   16  mv Всех_животные.txt Друзья_человека.txt
+   17  mkdir Мои_файлы
+   18  mv Друзья_человека.txt Мои_файлы/
+   19  sudo apt-get install wget
+   20  wget https://repo.mysql.com/mysql-apt-config_0.8.17-1_all.deb
+   21  sudo dpkg -i mysql-apt-config_0.8.17-1_all.deb
+   22  sudo apt-get update
+   23  sudo apt-get install mysql-server
+   24  history > история_команд.txt
